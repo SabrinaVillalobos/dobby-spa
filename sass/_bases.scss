@@ -1,5 +1,6 @@
 nav {
   background-color: #2f1f1f;
+  padding-left:$padding-left;
   height: $navh;
   line-height: $navlineh;
   li a:hover{
@@ -14,17 +15,22 @@ nav {
   }
 }
 
-nav ul{
-  transform: translateX(32%);
-  webkit-transform: translateX(-32%);
-}
 
 #dropdown{
   top:45px!important;
-  left: 20.496px!important;
+  z-index: 200!important;
 }
 
   #dropdown2{
   top:45px!important;
-  left:110.184px!important;
+}
+
+.indicator,.indicator-item{
+  background-color: #af7148!important;
+  height:1em!important;
+  width:1em!important;
+  border: solid 1px #fff!important;
+}
+.indicator-item.active{
+  background-color: #886e35!important;
 }

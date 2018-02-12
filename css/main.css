@@ -6774,6 +6774,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 nav {
   background-color: #2f1f1f;
+  padding-left: 35%;
   height: 45px;
   line-height: 45px; }
   nav li a:hover {
@@ -6784,16 +6785,20 @@ nav {
   nav a {
     font-size: 0.9rem !important; }
 
-nav ul {
-  transform: translateX(32%);
-  webkit-transform: translateX(-32%); }
-
 #dropdown {
   top: 45px !important;
-  left: 20.496px !important; }
+  z-index: 200 !important; }
 
 #dropdown2 {
-  top: 45px !important;
-  left: 110.184px !important; }
+  top: 45px !important; }
+
+.indicator, .indicator-item {
+  background-color: #af7148 !important;
+  height: 1em !important;
+  width: 1em !important;
+  border: solid 1px #fff !important; }
+
+.indicator-item.active {
+  background-color: #886e35 !important; }
 
 /*# sourceMappingURL=main.css.map */

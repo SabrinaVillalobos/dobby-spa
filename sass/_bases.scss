@@ -1,0 +1,30 @@
+nav {
+  background-color: #2f1f1f;
+  height: $navh;
+  line-height: $navlineh;
+  li a:hover{
+    color:#dbbe86;
+  }
+  i.material-icons{
+  height: $navh;
+  line-height: $navlineh;
+  }
+  a {
+    font-size:0.9rem!important;
+  }
+}
+
+nav ul{
+  transform: translateX(32%);
+  webkit-transform: translateX(-32%);
+}
+
+#dropdown{
+  top:45px!important;
+  left: 20.496px!important;
+}
+
+  #dropdown2{
+  top:45px!important;
+  left:110.184px!important;
+}

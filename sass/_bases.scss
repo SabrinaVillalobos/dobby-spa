@@ -7,30 +7,125 @@ nav {
     color:#dbbe86;
   }
   i.material-icons{
-  height: $navh;
-  line-height: $navlineh;
+    height: $navh;
+    line-height: $navlineh;
   }
   a {
     font-size:0.9rem!important;
   }
 }
-
-
+.carousel{
+border-bottom: solid 2px #2f1f1f;
+height: auto;
+}
 #dropdown{
   top:45px!important;
   z-index: 200!important;
 }
-
-  #dropdown2{
+#dropdown2{
   top:45px!important;
 }
-
+//carousel
 .indicator,.indicator-item{
   background-color: #af7148!important;
   height:1em!important;
   width:1em!important;
   border: solid 1px #fff!important;
+  .indicator-item.active{
+    background-color: #886e35!important;
+  }
 }
-.indicator-item.active{
-  background-color: #886e35!important;
+.circles {
+  background-color: $background-color3;
+  height: 300px;
+  h6{
+    font-weight: bold;
+  }
+  img{
+    border: $border;
+    @include img;
+  }
+  a{
+    @include enlace;
+  }
+}
+.cir{
+  width: 85%;
+  text-align: center;
+  font-size: $small-font-size;
+  .circles img{
+    margin-top: -30%!important;
+  }
+}
+
+.welcome{
+  background-color: $background-color4;
+  padding-top:5%;
+  padding-bottom:4%;
+  .welcomeText{
+    color:$orange-text;
+    text-align: center;
+  }
+  .towels{
+    border-radius:5%;
+  }
+  p, li{
+    size: $small-font-size;
+    padding-left:5%;
+  }
+}
+
+.about{
+  background-color:$background-color5;
+  border-bottom: 2px solid #fff;
+  height: 470px;
+  h5{
+    color:$background-color2;
+  }
+  .beds,.flowers {
+    margin:10px;
+    border-radius:5%;
+  }
+  .beds{
+    float:left;
+  }
+  .flowers{
+    float:right;
+  }
+  p{
+    color: $background-color2;
+  }
+  .lines,.lines2{
+    margin-top:10%;
+  }
+}
+
+.follow{
+  padding-top:5%;
+  background-color:$background-color6;
+  padding-bottom:1%;
+  border:0;
+    h6,p,span{
+      color: $background-color2;
+  }
+  h6{
+    margin-left:3%;
+    font-weight:bold;
+  }
+  a{
+    color:$orange-text;
+  }
+  img{
+    border-radius:50%;
+    background-color:$background-color3;
+    border: solid 5px $orange-text;
+    margin-left:3%;
+  }
+  .thing{
+    float:left;
+    font-size:80px;
+    margin: 0;
+    color:$orange-text;
+    padding:4px;
+  }
 }

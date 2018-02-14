@@ -6785,6 +6785,10 @@ nav {
   nav a {
     font-size: 0.9rem !important; }
 
+.carousel {
+  border-bottom: solid 2px #2f1f1f;
+  height: auto; }
+
 #dropdown {
   top: 45px !important;
   z-index: 200 !important; }
@@ -6797,8 +6801,82 @@ nav {
   height: 1em !important;
   width: 1em !important;
   border: solid 1px #fff !important; }
+  .indicator .indicator-item.active, .indicator-item .indicator-item.active {
+    background-color: #886e35 !important; }
 
-.indicator-item.active {
-  background-color: #886e35 !important; }
+.circles {
+  background-color: #e9e0b7;
+  height: 300px; }
+  .circles h6 {
+    font-weight: bold; }
+  .circles img {
+    border: 10px solid #dac087;
+    margin-top: -90px;
+    position: relative; }
+  .circles a {
+    background-color: #dac087;
+    color: #000; }
+
+.cir {
+  width: 85%;
+  text-align: center;
+  font-size: 11px; }
+  .cir .circles img {
+    margin-top: -30% !important; }
+
+.welcome {
+  background-color: #f4f4f4;
+  padding-top: 5%;
+  padding-bottom: 4%; }
+  .welcome .welcomeText {
+    color: #d76c40;
+    text-align: center; }
+  .welcome .towels {
+    border-radius: 5%; }
+  .welcome p, .welcome li {
+    size: 11px;
+    padding-left: 5%; }
+
+.about {
+  background-color: #4a3a3a;
+  border-bottom: 2px solid #fff;
+  height: 470px; }
+  .about h5 {
+    color: #dac087; }
+  .about .beds, .about .flowers {
+    margin: 10px;
+    border-radius: 5%; }
+  .about .beds {
+    float: left; }
+  .about .flowers {
+    float: right; }
+  .about p {
+    color: #dac087; }
+  .about .lines, .about .lines2 {
+    margin-top: 10%; }
+
+.follow {
+  padding-top: 5%;
+  background-color: #2f1f1f;
+  padding-bottom: 1%;
+  border: 0; }
+  .follow h6, .follow p, .follow span {
+    color: #dac087; }
+  .follow h6 {
+    margin-left: 3%;
+    font-weight: bold; }
+  .follow a {
+    color: #d76c40; }
+  .follow img {
+    border-radius: 50%;
+    background-color: #e9e0b7;
+    border: solid 5px #d76c40;
+    margin-left: 3%; }
+  .follow .thing {
+    float: left;
+    font-size: 80px;
+    margin: 0;
+    color: #d76c40;
+    padding: 4px; }
 
 /*# sourceMappingURL=main.css.map */
